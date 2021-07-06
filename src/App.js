@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h2>this is the mothercomponents</h2>
         <h4>welcome to the react js this is my react tutorial by bulbulahmed</h4> 
         <h2>এইখান থেকে আমরা reactjs এর project এর কাজ শুরু করবো </h2>
         <h3>React ব্যবহার করার জন্য জাভাস্ক্রিপ্ট জানা টা বেশ জরুরি বিশেষ করে মডার্ন জাভাস্ক্রিপ্ট সিন্টেক্স </h3>
@@ -17,4 +18,3 @@ function App() {
 }
 
 export default App;
-
