@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React js assert.deepEqual(actual, expected);
+          Learn React js from the very beginning 
         </a>
       </header>
     </div>
@@ -25,6 +25,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
