@@ -11,6 +11,7 @@ function App() {
         </p>
         <h1>welcome to the react js</h1>
         <h1>this is my first react training project</h1>
+        <h1>this is my second react training project</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
