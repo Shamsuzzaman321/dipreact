@@ -6,7 +6,8 @@ export default class Classcomp extends React.Component {
 			<div>
 			<h1>Hello world this is my Class components</h1>
 			<h2>This a child component which is put into mother component named App.js</h2>
-	      	
+	      	<h2>নাম={this.props.name} বয়স={this.props.age} জন্মস্থান={this.props.birthplace}</h2>
+
 			</div>
 		)
 	}
