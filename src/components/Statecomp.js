@@ -11,6 +11,8 @@ class Statecomp extends React.Component {
 
   function changestatrevariables () {
 	this.setState({
+  		 statevariables: "updated Statevariable"
+
 	})
   }
 
@@ -19,7 +21,8 @@ class Statecomp extends React.Component {
       <div>
       <h1>========================State======================</h1>
       <h2>In Here we will learn details about State</h2>
-      <h2>In Here we will see the statevariables={this.state.statevariables}</h2>
+      <h2>In Here we will see the {this.state.statevariables}</h2>
+      <h2>In Here we will see the {this.state.statevariables}</h2>
       </div>
     );
   }
