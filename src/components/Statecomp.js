@@ -5,13 +5,13 @@ class Statecomp extends React.Component {
   	super(props)
   
   	this.state = {
-  		 statevariables: "hello world this is my Statevariable"
+  		 name: "Bangladesh",
   	}
   }
 
   function changestatrevariables () {
 	this.setState({
-  		 statevariables: "updated Statevariable"
+  		 name: "updated Statevariable"
 
 	})
   }
@@ -21,8 +21,9 @@ class Statecomp extends React.Component {
     <div>
       <h1>========================State======================</h1>
       <h2>In Here we will learn details about State</h2>
-      <h2>In Here we will see the {this.state.statevariables}</h2>
-      <h2>In Here we will see the {this.state.statevariables}</h2>
+      <h1>{this.state.name}</h1>
+      <h2>In Here we will see the {this.state.name}</h2>
+      <h2>In Here we will see the {this.state.name}</h2>
     </div>
     );
   }
