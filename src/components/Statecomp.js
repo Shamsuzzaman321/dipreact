@@ -5,8 +5,13 @@ class Statecomp extends React.Component {
   	super(props)
   
   	this.state = {
-  		 statevariables: {"hello world this is my Statevariable"},
+  		 statevariables: "hello world this is my Statevariable"
   	}
+  }
+
+  function changestatrevariables () {
+	this.setState({
+	})
   }
 
   render() {
