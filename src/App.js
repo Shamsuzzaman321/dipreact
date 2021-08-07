@@ -19,6 +19,8 @@ function App() {
     <Props name="Rahim" age="20" birthplace="Dhaka">এই চাইল্ড কম্পোনেন্ট এ আমরা closing ট্যাগ use না করে জেনারেল html starting ending ট্যাগ use করেছি এবং starting ending tag এর মাঝের কোনো টেক্সট আউটপুট প্রিন্ট করার জন্য props.children লিখতে হয় </Props>
     <Props name="Karim" age="25" birthplace="Rangpur"/>
     <Props name="Jadhu" age="30" birthplace="Gaibandha"/>
+
+    
     <Statecomp />
 
 
