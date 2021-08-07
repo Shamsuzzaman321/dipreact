@@ -18,12 +18,12 @@ class Statecomp extends React.Component {
 
   render() {
     return (
-      <div>
+    <div>
       <h1>========================State======================</h1>
       <h2>In Here we will learn details about State</h2>
       <h2>In Here we will see the {this.state.statevariables}</h2>
       <h2>In Here we will see the {this.state.statevariables}</h2>
-      </div>
+    </div>
     );
   }
 }
