@@ -18,9 +18,9 @@ class Statecomp extends React.Component {
     })
 
  }
+ 
 
   
-
   render() {
     return (
     <div>
@@ -29,6 +29,8 @@ class Statecomp extends React.Component {
       <h2>In Here we will learn details about setState(update variable's value)</h2>
       <h1>in here we are showing the output of the declared variables={this.state.name}</h1>
       <h1>in here we are showing the output of the declared variables={this.state.age}</h1>
+      <h1>=====setState(click the button to see the setState)=====</h1>
+
       <button onClick={() => this.setStatefunction()}>click me</button>
 
       
