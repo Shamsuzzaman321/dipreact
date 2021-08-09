@@ -5,6 +5,7 @@ import Classcomp from './components/Classcomp';
 import Navbar from './components/Navbar';
 import Props from './components/Props';
 import Statecomp from './components/Statecomp';
+import Dstrctprpsfunccomp from './components/Dstrctprpsfunccomp';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
 
     
     <Statecomp />
+    <Dstrctprpsfunccomp name="Md.Shamsuzzaman" age="30" />
 
 
     </div>
