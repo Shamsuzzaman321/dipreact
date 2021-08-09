@@ -7,6 +7,7 @@ import Props from './components/Props';
 import Statecomp from './components/Statecomp';
 import Dstrctprpsfunccomp from './components/Dstrctprpsfunccomp';
 import Dstrctprpsclasscomp from './components/Dstrctprpsclasscomp';
+import Dstrctstteclscomp from './components/Dstrctstteclscomp';
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
     <Statecomp />
     <Dstrctprpsfunccomp name="Md.Shamsuzzaman" age="30" />
     <Dstrctprpsclasscomp naam="Ironman" boyosh="32" />
+    <Dstrctstteclscomp />
 
 
     </div>
