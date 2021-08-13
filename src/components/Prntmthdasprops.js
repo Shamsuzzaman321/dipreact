@@ -10,13 +10,14 @@ class Prntmthdasprops extends React.Component {
   }
   prntfunctioname =(argdatavarname) => {
   	alert(`hello world! in here we will show the user name: ${this.state.varname} + ${argdatavarname}`);
-  	
+
   }
 
   render() {
     return (
       <div>
-      <h1>======We will pass data via method/function(declare function) ======</h1>
+      <h1>==Method as props,send data(child=mother) as argument value passing==</h1>
+      <h2>======We will pass data via method/function(declare function) ======</h2>
       <Chldmthdasprops childvarname={this.state.varname}/>
       <Chldmthdasprops childfuncname={()=> this.prntfunctioname()}/>
 
