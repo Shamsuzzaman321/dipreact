@@ -8,12 +8,9 @@ class Prntmthdasprops extends React.Component {
     }
 
   }
-  prntfunctioname =() => {
-  	this.state = {
-        funcname1: 'Gaibandha',
-        funcname2: 'Rangpur',
-        funcname3: 'Bogra'
-  	}
+  prntfunctioname =(argdatavarname) => {
+  	alert(`hello world! in here we will show the user name: ${this.state.varname} + ${argdatavarname}`);
+  	
   }
 
   render() {
