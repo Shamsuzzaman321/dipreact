@@ -9,6 +9,7 @@ import Dstrctprpsfunccomp from './components/Dstrctprpsfunccomp';
 import Dstrctprpsclasscomp from './components/Dstrctprpsclasscomp';
 import Dstrctstteclscomp from './components/Dstrctstteclscomp';
 import Bindevnthndler from './components/Bindevnthndler';
+import Prntmthdasprops from './components/Prntmthdasprops';
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,8 @@ function App() {
     <Dstrctprpsclasscomp naam="Ironman" boyosh="32" />
     <Dstrctstteclscomp />
     <Bindevnthndler />
+    <Prntmthdasprops />
+    
 
 
     </div>
