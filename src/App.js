@@ -10,6 +10,7 @@ import Dstrctprpsclasscomp from './components/Dstrctprpsclasscomp';
 import Dstrctstteclscomp from './components/Dstrctstteclscomp';
 import Bindevnthndler from './components/Bindevnthndler';
 import Prntmthdasprops from './components/Prntmthdasprops';
+import Cnditnalrendering from './components/Cnditnalrendering';
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,7 @@ function App() {
     <Dstrctstteclscomp />
     <Bindevnthndler />
     <Prntmthdasprops />
+    <Cnditnalrendering />
     
 
 
