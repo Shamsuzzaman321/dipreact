@@ -5,7 +5,7 @@ class Cnditnalrendering extends React.Component {
   	super(props)
   
   	this.state = {
-  		 user:false
+  		 user:true
   	}
   }
 
@@ -16,14 +16,14 @@ class Cnditnalrendering extends React.Component {
     	// statement
     	return(
     		<div>
-    			The User is present
+    			The User is present (means) true
     		</div>
     		)
     } else {
     	// statement
     	return(
     		<div>
-    			The User is not Present
+    			The User is not Present (means) false
     		</div>
     		)
     }
