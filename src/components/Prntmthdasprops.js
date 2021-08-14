@@ -9,7 +9,7 @@ class Prntmthdasprops extends React.Component {
 
   }
   prntfunctioname =(argdatavarname) => {
-  	alert(`hello world! in here we will show the user name: ${this.state.varname} + ${argdatavarname}`);
+  	alert(`hello world!  user name: ${this.state.varname} + and function er argument method as props: ${argdatavarname}`);
 
   }
 
