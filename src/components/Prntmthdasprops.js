@@ -19,7 +19,7 @@ class Prntmthdasprops extends React.Component {
       <h1>==Method as props,send data(child=mother) as argument value passing==</h1>
       <h2>======We will pass data via method/function(declare function) ======</h2>
       <Chldmthdasprops childvarname={this.state.varname}/>
-      <Chldmthdasprops childfuncname={()=> this.prntfunctioname()}/>
+      <Chldmthdasprops childfuncname={ this.prntfunctioname}/>
 
       </div>
     );
