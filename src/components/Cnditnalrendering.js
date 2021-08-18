@@ -16,7 +16,7 @@ class Cnditnalrendering extends React.Component {
     	// statement
     	return(
     		<div>
-    			The User is present (means) true
+    			The User is present (means) true 
     		</div>
     		)
     } else {
@@ -31,3 +31,10 @@ class Cnditnalrendering extends React.Component {
 }
 
 export default Cnditnalrendering;
+
+/**
+|--------------------------------------------------
+| this is multiline comment section where we can write
+ anything we want
+|--------------------------------------------------
+*/
