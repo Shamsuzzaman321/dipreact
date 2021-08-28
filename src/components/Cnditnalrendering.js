@@ -36,5 +36,26 @@ export default Cnditnalrendering;
 |--------------------------------------------------
 | this is multiline comment section where we can write
  anything we want
+##Mount 
+constructor
+static GetDerivedStateFrom
+render
+componentdidMount() {}
+
+##update
+static GetDerivedStateFrom
+shouldComponentUpdate
+snapshotfragmentDidUpdate
+render
+componentDidUpdate
+
+##unmount
+componentDidunmount
+
+##errors
+GetDerivedStateFromError
+componentDidCatch
+
+
 |--------------------------------------------------
 */
