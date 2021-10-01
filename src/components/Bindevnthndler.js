@@ -12,6 +12,7 @@ class Bindevnthndler extends React.Component {
   	this.setState({
   		name:"modernUttorbonggo"
   	})
+
   }
   render() {
     return (
@@ -19,6 +20,7 @@ class Bindevnthndler extends React.Component {
       <h1>======Bindeventhandler(related with setstate updated (variablevalues))======</h1>
       <h2>{this.state.name}</h2>
       <button onClick={this.eventhandlerfunction}>clckevent</button>
+      {/* <button onClick={()=>this.eventhandlerfunction()}>clckevent</button> */}
       </div>
     );
   }
