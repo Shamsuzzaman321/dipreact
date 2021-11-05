@@ -8,6 +8,7 @@ class Dstrctprpsfunccomp extends React.Component {
 
   render() {
   	const {naam,boyosh}=this.props;
+
     return (
       <div>
       <h1>======De-Structing props for Classcomponent======</h1>
@@ -19,3 +20,5 @@ class Dstrctprpsfunccomp extends React.Component {
 }
 
 export default Dstrctprpsfunccomp;
+
+

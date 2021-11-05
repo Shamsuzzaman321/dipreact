@@ -11,7 +11,7 @@ class Dstrctstteclscomp extends React.Component {
   }
 
   render() {
-  	const {city,division} = this.state;
+  	const {city,division} = this.state; //variablename De-Structing
     return (
       <div>
       <h1>======De-Structing State for Classcomponent======</h1>
@@ -25,3 +25,8 @@ class Dstrctstteclscomp extends React.Component {
 }
 
 export default Dstrctstteclscomp;
+
+
+
+
+
