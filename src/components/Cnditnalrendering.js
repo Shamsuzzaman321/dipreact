@@ -32,7 +32,8 @@ class Cnditnalrendering extends React.Component {
 
 export default Cnditnalrendering;
 
-
+/* var
+const */
 
 /**
 |--------------------------------------------------
@@ -50,6 +51,9 @@ shouldComponentUpdate
 snapshotfragmentDidUpdate
 render
 componentDidUpdate
+setInterval(() => {
+  
+}, intervalInms)
 
 ##unmount
 componentDidunmount
